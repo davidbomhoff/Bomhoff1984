@@ -1,0 +1,99 @@
+@font-face{
+	font-family: "Martel Regular";
+	src: url(../fonts/Martel-Regular.ttf) format("truetype");
+}
+
+@font-face{
+	font-family: "Roboto";
+	src: url(../fonts/Roboto.woff) format("woff");
+}
+
+.GO{
+	font-family: "Martel Regular";
+	font-size: 33pt;
+	color: peachpuff;
+	position: absolute;
+	left: 37%;
+	bottom: 65%;
+	letter-spacing: 0.3px;
+}
+
+.title{
+	font-family: "Roboto";
+	font-size: 100pt;
+	color: black;
+	position: absolute;
+	left: 37%;
+	bottom: 30%;
+	letter-spacing: 0.3px;
+}
+
+.red-rectangle {
+    position: absolute;
+	left: 50%;
+	top: 50%;
+    width: 337px;
+    height: 500px;
+    transform: translate(-50%,-50%);
+    background-color: red;
+}
+
+.eye{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 200px;
+	height: 200px;
+	background: white;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%) rotate(135deg);
+	border-radius: 75% 0;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.iris{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 72px;
+	height: 72px;
+	background: black;
+	border-radius: 100%;
+	border: solid 20px #ef888c;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%) rotate(135deg);
+}
+
+.lid{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 300px;
+	height: 160px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%) rotate(45deg);
+	cursor: pointer;
+	z-index: 1;
+}
+
+.lid span{
+	display: block;
+	width: 0%;
+	height: 100%;
+	transition: 0.4s;
+	background: #ef888c;
+	border-radius: 0 0 60% 60%;
+    transform: rotate(270deg)
+}
+
+.eye:hover .lid span{
+	width: 100%;
+	transition: 0.4s;
+}
