@@ -8,14 +8,24 @@
 	src: url(../fonts/Impact.woff) format("truetype");
 }
 
+.container {
+	width: 500px;
+	height: 664px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
 .GO{
 	font-family: "Martel Regular";
 	font-size: 48pt;
 	color: peachpuff;
 	position: absolute;
-	left: 31%;
-	bottom: 67%;
+	left: 5%;
+	bottom: 75%;
 	letter-spacing: 0.3px;
+	orientation: center;
 }
 
 .title{
@@ -23,8 +33,8 @@
 	font-size: 175pt;
 	color: black;
 	position: absolute;
-	left: 31%;
-	bottom: 20%;
+	left: 5%;
+	bottom: 8%;
 	letter-spacing: 0.3px;
 }
 
