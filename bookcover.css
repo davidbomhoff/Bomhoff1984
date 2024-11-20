@@ -19,13 +19,15 @@
 
 .GO{
 	font-family: "Martel Regular";
+	width: 100%;
 	font-size: 48pt;
 	color: peachpuff;
 	position: absolute;
-	left: 5%;
+	text-align: center;
+/*	left: 5%;*/
 	bottom: 75%;
 	letter-spacing: 0.3px;
-	orientation: center;
+/*	orientation: center;*/
 }
 
 .title{
